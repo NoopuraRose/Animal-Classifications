@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 from ultralytics import YOLO
 
 
+
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "runs" / "classify" / "train" / "weights" / "best.pt"
 UPLOAD_FOLDER = BASE_DIR / "static" / "uploads"
